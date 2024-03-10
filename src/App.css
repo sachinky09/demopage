@@ -413,6 +413,7 @@ h2{
 .footer--items > ul {
   list-style: none;
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
   gap: 42.667px;
   text-decoration: none;
@@ -499,7 +500,7 @@ h2{
   .event--section--container,
   .about--section,
   .footer--link--container,
-  .footer--items > ul,
+  
   .footer--content--container {
     display: flex;
     flex-direction: column;
@@ -636,4 +637,13 @@ h2{
   padding-bottom: 300px;
   background-color: #000000;
 }
+.sponsor3{
+  height:100px;
+  width:70px;
+}
+.footer--items{
+  display:flex;
+  flex-direction: row;
+}
+
 
